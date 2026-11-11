@@ -1,0 +1,39 @@
+{
+  "name": "otp-face-auth-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OTP + Face Login Authenticator - Next-Gen Triple Factor Biometric Authentication",
+  "scripts": {
+    "dev": "npm run client:dev",
+    "client": "npm --prefix client run dev",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "client:preview": "npm --prefix client run preview",
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "test:otp": "npm --prefix server run test:otp",
+    "test:face": "npm --prefix server run test:face",
+    "test:session": "npm --prefix server run test:session",
+    "test:unit": "npm --prefix server run test:unit",
+    "test:integration": "npm --prefix server run test:integration",
+    "test": "npm --prefix server test",
+    "install:all": "npm --prefix client install && npm --prefix server install"
+  },
+  "keywords": [
+    "face-api",
+    "otp",
+    "face-authentication",
+    "zero-trust",
+    "biometrics",
+    "react",
+    "tailwind",
+    "express",
+    "mongodb",
+    "nodemailer",
+    "twilio",
+    "msg91"
+  ],
+  "author": "ShieldAuth Security",
+  "license": "MIT"
+}
